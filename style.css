@@ -1,0 +1,22 @@
+.stella {
+    gap: 10px;
+}
+
+hr {
+    border: solid 2px black;
+    width: 100%;
+    opacity: unset;
+}
+.fa-star
+{
+    font-size: 28px;
+}
+.my_section_about
+{
+    background-color: #1ABC9C;
+    color: white;
+}
+.my_section_about  hr
+{
+    border-color: white;
+}
