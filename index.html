@@ -68,11 +68,12 @@
   </div>
 </div>
 <!-- fine jumbo  -->
-<!-- inizio jumbo  -->
+<!-- inizio portfolio  -->
 <div id="Portfolio">
   <div class="container d-flex flex-column align-items-center pt-5 pb-5">
       <div class="container d-flex flex-column align-items-center">
         <h2 class="mb-5">START BOOTSTRAP</h2>
+        <!-- inizio sezione stella  -->
         <div class="col-3">
           <div class="row">
             <div class="col-5 mb-5">
@@ -86,6 +87,8 @@
           </div>
           
         </div>
+        <!-- fine sezione stella  -->
+        <!-- inizio sezione immagini nella grid  -->
           <div class="container text-center">
               <div class="row  row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-3 ">
                 <div class="col ">
@@ -109,29 +112,31 @@
                 </div>
               </div>
             </div>
+            <!-- fine sezione immagini nella grid  -->
 
 
       </div>
   </div>
 
 </div>
-<!-- fine navbar  -->
+<!-- fine portfolio  -->
 <!-- inizio about_us  -->
 <div id="ABOUT_US" class="green text-white pt-4">
   <div class="container d-flex flex-column align-items-center">
     <h2 class="mb-5">START BOOTSTRAP</h2>
 <div class="col-3">
-<div class="row">
-  <div class="col-5 mb-5">
-    <hr class=" opacity-100  rounded border-2">
+  <div class="row">
+    <div class="col-5 mb-5">
+      <hr class=" opacity-100  rounded border-2">
+    </div>
+    <div class="col-2"><i class="fa-solid fa-star "></i></div>
+    <div class="col-5 ">
+      <!-- opacity-100 dato per il colore  -->
+      <hr class=" opacity-100  rounded border-2 ">
+    </div>
   </div>
-  <div class="col-2"><i class="fa-solid fa-star "></i></div>
-  <div class="col-5 ">
-    <!-- opacity-100 dato per il colore  -->
-    <hr class=" opacity-100  rounded border-2 ">
   </div>
-</div>
-</div>
+  <!-- sezione grid 2 colonne  -->
       <div class="container mb-3">
           <div class="row row-cols-md-2 row-cols-sm-1 ">
             <div class="col">
@@ -142,6 +147,7 @@
             </div>
           </div>
       </div>
+      <!-- sezione grid 2 colonne fine  -->
 
         <button type="button" class="btn btn-outline-light mb-5  ">
           <i class="fa-solid fa-download"></i>
@@ -150,16 +156,63 @@
   </div>
 </div>
 <!-- fine about_us  -->
+<!-- inizio form  -->
+<div id="form" class="">
+  <div class="container d-flex flex-column text-uppercase align-items-center my-4 ">
+    <h2 class="my-1 mb-2  ">Contact me</h2>
+    <!-- inizio sezione stella  -->
+    <div class="col-3">
+      <div class="row mb-5">
+        <div class="col-5 ">
+          <hr class="blue opacity-100  rounded border-2">
+        </div>
+        <div class="col-2">
+          <i class="fa-solid fa-star blue"></i>
+        </div>
+        <div class="col-5 ">
+          <!-- opacity-100 dato per il colore  -->
+          <hr class="blue opacity-100  rounded border-2 ">
+        </div>
+      </div>
+    </div>
+    <!-- fine sezione stella  -->
+    <!-- inizio form  -->
+    <form class="col-8 blue">
+      <div class="mb-3">
+        <input type="text" class="form-control border-top-0 border-start-0 border-end-0 rounded-0  " id="name" aria-describedby="emailHelp" placeholder="Name" >
+      </div>
+      <div class="mb-3">
+        <input type="email" class="form-control border-top-0 border-start-0 border-end-0 rounded-0  " id="email" aria-describedby="emailHelp" placeholder="Email" >
+      </div>
+      <div class="mb-3">
+        <input type="number" class="form-control border-top-0 border-start-0 border-end-0 rounded-0  " id="phone number" aria-describedby="emailHelp" placeholder="Phone number" >
+      </div>
+      <div class="mb-3">
+        <input type="password" class="form-control border-top-0 border-start-0 border-end-0 rounded-0  " id="password" aria-describedby="emailHelp" placeholder="Password" >
+      </div>
+      <div class="mb-3">
+        
+        <!-- w-100 inserito per far si che la text area prendesse tutto lo spazio disponibile  -->
+        <textarea name="message" id="messaggio" rows="10" class="w-100 " placeholder="messaggio" ></textarea>
+      </div>
+      
+      <button type="submit" class="btn my_section_about">Send</button>
+    </form>
+    <!-- fine form  -->
+  </div>
+</div>
+<!-- fine form  -->
 <!-- inizio web  -->
 <div id="WEB" class="text-white my_navbar">
   <div class="container text-center py-5 ">
     <div class="row gap-3 ">
       <div class="col-md">
-        <h2 class="font-weight-bold pb-3">LOCATION</h2>
+        <h2 class=" pb-3">LOCATION</h2>
         <p>2216 Jhon Daniel Drive Clark, MO54243</p>
       </div>
       <div class="col-md">
-        <h2 class="font-weight-bold pb-3">LOCATION</h2>
+        <h2 class=" pb-3">LOCATION</h2>
+        <!-- sezione bottoni  -->
         <span class="d-flex justify-content-center gap-2">
           <button type="button" class="btn btn-outline-light rounded-circle">
             <i class="fa-brands fa-facebook-f" ></i>
@@ -174,9 +227,10 @@
             <i class="fa-brands fa-linkedin"></i>
           </button>
         </span>
+         <!-- fine sezione bottoni  -->
       </div>
       <div class="col-md">
-        <h2 class="font-weight-bold pb-3">ABOUT FREELANCER</h2>
+        <h2 class=" pb-3">ABOUT FREELANCER</h2>
         <span>Freelancer is a free to use, open source Bootstrap theme created by <a href="" class="green_text">Start Bootstrap</a>.</span>
       </div>
     </div>
