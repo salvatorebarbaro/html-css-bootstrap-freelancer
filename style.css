@@ -8,17 +8,26 @@
 .my_navbar
 {
     
-    background-color: #2C3E50;
+    background-color:#3A546D;
 }
 .green
 {
     background-color: #1ABC9C;
 }
+.green_text{color: #1ABC9C;
+text-decoration: none;}
+.dark_blue
+{
+    background-color: #2C3E50;
+}
 .blue
 {
-    color: #343541;
-    
-
+    color: #3A546D;
+}
+.fa-brands
+{
+    width: 16px;
+    height: 16px;
 }
 
 .TEST
