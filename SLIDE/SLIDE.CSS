@@ -1,0 +1,11 @@
+.stella
+{
+    display: flex;
+    color: black;
+    gap: 10px;
+}
+hr
+{
+    border: solid 2px black;
+    width: 100%;
+}
