@@ -1,12 +1,6 @@
 .stella {
     gap: 10px;
 }
-
-hr {
-    border: solid 2px black;
-    width: 100%;
-    opacity: unset;
-}
 .fa-star
 {
     font-size: 28px;
@@ -25,4 +19,8 @@ hr {
 {
     
     background-color: #2C3E50;
+}
+.green
+{
+    background-color: #1ABC9C;
 }
